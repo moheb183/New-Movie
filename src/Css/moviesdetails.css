@@ -1,0 +1,25 @@
+.movie-card-details {
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-img {
+  border-radius: 10px 10px 0 0;
+}
+
+.review {
+  font-size: 0.6rem;
+}
+.overview p {
+  font-size: 0.7rem;
+}
+
+.genres span {
+  font-size: 0.7rem;
+}
+
+.category-d span {
+  font-size: 0.7rem;
+}

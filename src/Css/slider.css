@@ -1,0 +1,134 @@
+/* Slider Container */
+.slider-container {
+  padding: 2rem 0;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+/* Slider Row */
+.slider-row {
+  display: flex;
+  align-items: center;
+}
+
+/* Arrow Icons */
+.arrow-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon {
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.arrow-icon:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+/* Slider Wrapper */
+.movie-slider-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.movie-slider-wrapper {
+  display: flex;
+  transition: transform 0.8s ease;
+}
+
+/* Movie Card */
+.movie-card-slider {
+  flex: 0 0 calc(100% / 6);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  margin: 0 0.5rem;
+}
+
+.movie-card-slider:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.movie-image-wrapper img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Movie Background on Hover */
+.movie-background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.movie-card-slider:hover .movie-background-slider {
+  opacity: 1;
+}
+
+/* Rating and Classification */
+.rating-slider {
+  color: #f39c12;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.rating-slider span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 0.25rem;
+}
+
+.classification {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.classification p {
+  background-color: #f39c12;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Movie Title */
+.movie-background-slider h5 {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.lol {
+  background-color: rgba(0, 0, 0, 0);
+}

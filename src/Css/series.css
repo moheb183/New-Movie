@@ -1,0 +1,66 @@
+.movie-card {
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-img {
+  border-radius: 10px 10px 0 0;
+}
+
+.movie-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.movie-card:hover .movie-background {
+  opacity: 1;
+}
+
+.rating,
+.classification,
+h5 {
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.rating span {
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.classification {
+  display: flex;
+  gap: 10px;
+}
+
+.classification p {
+  background-color: #f39c12;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lol {
+  background-color: rgba(0, 0, 0, 0);
+}

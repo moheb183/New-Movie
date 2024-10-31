@@ -136,7 +136,7 @@ export default function Header() {
                                 <img src={me} alt="my_photo" className="  img-fluid " />
                             </i>
                         </div> */}
-                        <Dropdown className=" text-white">
+                        <Dropdown className=" text-white mb-1">
                             <Dropdown.Toggle variant="transparent" id="dropdown-basic" className="">
                                 Language: {Lang.toUpperCase()}
                             </Dropdown.Toggle>
